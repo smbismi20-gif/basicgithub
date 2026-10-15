@@ -1,0 +1,13 @@
+
+name: Simple Workflow
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display message
+        run: echo "GitHub Actions is working"
